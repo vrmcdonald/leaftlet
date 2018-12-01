@@ -7,7 +7,10 @@ body {
 
 h1 {
   font-family: 'Lora', 'Big Caslon', 'Georgia', serif;
-  color: #fff;
+  color: #000;
+  background: #fff;
+  padding: 25px;
+  text-align: center;
 }
 
 #description {
@@ -28,10 +31,11 @@ footer {
   border: 10px solid #fff;
 }
 
-@media screen and (min-width 700px); {
+@media screen and (max-width 650px); {
   #mapid {
     margin: 0px;
     boder: 0px;
     border-radius: 0px;
+    height: 500px;
   }
 }
