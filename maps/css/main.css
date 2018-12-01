@@ -2,36 +2,30 @@ body {
   font-family: 'Open Sans', 'Futura', 'Verdana', sans-serif;
   margin: 1em 10em 1em 10em;
   background: #5CF9EB;
-  font: #000;
+  color: #000;
 }
 
 h1 {
   font-family: 'Lora', 'Big Caslon', 'Georgia', serif;
-  font: #fff;
+  color: #fff;
 }
 
 #description {
   background: #fff;
   margin-top: 25px;
-  padding: 30px;
-  border-radius: 20px;
+  padding: 10px 30px;
 }
 
 footer {
   background: #fff;
   margin: 25px 0px;
-  padding: 5px 10px 5px 10px;
+  padding: 10px 30px;
 }
 
-#container {
-  margin: 0px;
-  max-width: 75%;
-}
 
 #mapid {
   height: 700px;
   border: 10px solid #fff;
-  border-radius: 20px;
 }
 
 @media screen and (min-width 700px); {
